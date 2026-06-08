@@ -1,0 +1,44 @@
+{
+  "name": "@kobalab/tenhou-convert",
+  "version": "1.0.0",
+  "description": "天凤牌谱一站式转换工具：从天凤牌谱ID/链接直接生成天凤观战JSON格式",
+  "main": "lib/convert.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "tenhou-convert": "./command.js",
+    "tenhou-convert-server": "./server.js"
+  },
+  "scripts": {
+    "test": "mocha -u tdd -t 0 --exit",
+    "test:cover": "nyc -r lcov -r text npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobalab/tenhou-convert.git"
+  },
+  "keywords": [
+    "麻雀",
+    "天凤",
+    "电脳麻雀",
+    "牌谱",
+    "変換"
+  ],
+  "author": "Satoshi Kobayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kobalab/tenhou-convert/issues"
+  },
+  "homepage": "https://github.com/kobalab/tenhou-convert#readme",
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "nyc": "^17.1.0"
+  },
+  "dependencies": {
+    "@kobalab/tenhou-log": "file:../tenhou-log-1.3.1",
+    "@kobalab/tenhou-url-log": "file:../tenhou-url-log-1.0.4/tenhou-url-log-1.0.4",
+    "express": "^4.21.2",
+    "yargs": "^17.7.2"
+  }
+}

@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+
+# Output / Input data
+output/
+input/
+input.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp scripts
+_fix*.py
+_patch*.py
+_test*.py
+_apply*.py
+
+# Old code / backups
+旧代码/
+batch_gui_form_v3*.py
+mahjong_HM.py
+
+# Old batch files
+run.bat
+rrr.bat
+
+# Duplicate files
+S-MAHJONG1.TTF
+使用方法.txt
+
+# Node modules (installed by setup.bat)
+tenhou/tenhou-convert/node_modules/
