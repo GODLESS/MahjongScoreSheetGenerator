@@ -169,5 +169,5 @@ MIT License - 详见 [LICENSE](LICENSE)
 
 ## 🙏 致谢
 
-- 天凤牌谱转换工具基于 [@kobalab/tenhou-convert](https://github.com/kobalab/tenhou-convert)
+- 天凤牌谱转换工具基于 [@kobalab/Majiang](https://github.com/kobalab/Majiang)
 - 麻将字体 S-MAHJONG.TTF
